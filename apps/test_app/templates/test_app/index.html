@@ -1,0 +1,9 @@
+{% extends "test_app/base.html" %}
+{% load static %}
+{% load sass_tags %}
+{% block head %}
+    <link rel="stylesheet" type="text/css" href="{% sass_src 'test_app/css/index.sass' %}" />
+{% endblock %}
+
+{% block content %}
+{% endblock %}
