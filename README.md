@@ -37,7 +37,7 @@ cd /tmp && wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz && \
     sudo ./configure && sudo make && sudo make install && sudo rm -rf /tmp/*
 ```
 
-### !!! На следующем этапе нужно вернуться в папку с проектом (flask_test_app) !!!
+### !!! На следующем этапе нужно вернуться в папку с проектом (django_test_app) !!!
 #### Установка виртуального окружения python и зависимостей проекта
 ```
 sudo pip3 install virtualenv
